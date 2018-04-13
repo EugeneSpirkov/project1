@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>test shop</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i" rel="stylesheet">
+	<link rel="stylesheet" href="dist/styles/style.main.min.css">
+</head>
+<body>
+
+	<!-- ======================================================================================================================================================== -->
+	<!-- F E E D B A C K -->
+
+	<div class="feedback" id="feedback">
+		<div class="form-wrapper">
+			<div class="feedback__close" id="feedback__close">×</div>
+			<form action="#">
+				<span class="feedback__title">обратаная связь</span>
+				<div class="feedback__name-title">Ваше имя*</div>
+				<input type="text" name="name" required="">
+				<div class="feedback__phone-title">Телефон*</div>
+				<input type="text" name="phone" required="">
+				<div class="feedback__email-title">Email*</div>
+				<input type="email" name="email">
+				<div class="feedback__sms-title">Сообщение</div>
+				<textarea name="sms"></textarea>
+				<input class="feedback-submit" type="submit" value="ОТПРАВИТЬ">
+			</form>
+		</div>
+	</div>
+
+	<!-- ======================================================================================================================================================== -->
+	<!-- H E A D E R -->
+
+	<header class="main-header">
+		<div class="container-fluid">
+			<div class="row justify-content-between align-items-center header-row">
+				<div class="col-lg-4 col-md-5 col-sm-6">
+					<div class="logo">
+						<a href="#">
+							<img class="logo__img" src="dist/images/logo.png" alt="logotype">
+						</a>
+						<div class="logo__box">
+							<span class="logo__title">Название <br>компании</span>
+							<p>самая клевая компания</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-5 col-sm-6">
+					<div class="contacts">
+						<span class="contacts__num">+7(499) 777-77-77</span>
+						<span class="contacts__num">+7(499) 777-77-77</span>
+						<a href="#" class="contacts__link" id="contacts__link">Обратная связь</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+
+	<!-- ======================================================================================================================================================== -->
+	<!-- N A V I G A T I O N -->
+
+
+	<nav class="main-nav">
+		<div class="container-fluid">
+			<div class="row align-items-center">
+				<div class="col">
+					<ul class="main-nav__menu justify-content-center">
+						<li class="main-nav__item">
+							<a href="#" class="main-nav__link">Главная</a>
+						</li>
+						<li class="main-nav__item">
+							<a href="#" class="main-nav__link">Каталог</a>
+						</li>
+						<li class="main-nav__item">
+							<a href="#" class="main-nav__link">Доставка и оплата</a>
+						</li>
+						<li class="main-nav__item">
+							<a href="#" class="main-nav__link">Прайс-лист</a>
+						</li>
+						<li class="main-nav__item">
+							<a href="#" class="main-nav__link main-nav__link_without-border">Контакты</a>
+						</li>
+					</ul>
+				</div>
+			</div>	
+		</div>
+	</nav>
+
+	<nav class="toggle-nav">
+		<div class="toggle-icon" id="toggle-icon">
+			<div class="bar1"></div>
+	  		<div class="bar2"></div>
+  			<div class="bar3"></div>
+		</div>
+		<ul class="main-nav__menu main-nav__menu_toggle justify-content-center">
+			<li class="main-nav__item">
+				<a href="#" class="main-nav__link">Главная</a>
+			</li>
+			<li class="main-nav__item">
+				<a href="#" class="main-nav__link">Каталог</a>
+			</li>
+			<li class="main-nav__item">
+				<a href="#" class="main-nav__link">Доставка и оплата</a>
+			</li>
+			<li class="main-nav__item">
+				<a href="#" class="main-nav__link">Прайс-лист</a>
+			</li>
+			<li class="main-nav__item">
+				<a href="#" class="main-nav__link main-nav__link_without-border">Контакты</a>
+			</li>
+		</ul>
+	</nav>
+
+	
+	<!-- ======================================================================================================================================================== -->
+	<!-- S L I D E R -->
+
+
+  	<div class="slider">
+	    <img src="dist/images/slide1.jpg" alt="">
+	    <img src="dist/images/slide2.jpg" alt="">
+	    <img src="dist/images/slide3.jpg" alt="">
+  	</div>
+
+
+	 <!-- ======================================================================================================================================================= -->
+	 <!-- C O N T E N T -->
+
+
+ 	<div class="content">
+ 		<div class="container">
+ 			<div class="row">
+ 				<div class="col-12">
+	 				<nav class="content-nav">
+	 					<ul class="content-nav__menu">
+	 						<li><a href="#">Главная</a></li>
+	 						<li><a href="#">Каталог</a></li>
+	 						<li class="content-nav__active-item"><a class="content-nav__active-link" href="#">Бытовая техника</a></li>
+	 					</ul>
+	 				</nav>
+	 			</div>
+ 			</div>
+
+ 			<div class="row">
+
+ 				<div class="col-md-3 col-sm-12">
+ 					<aside class="sidebar">
+ 						<nav>
+	 						<ul>
+	 							<li><a href="#">Автомобили</a></li>
+	 							<li>
+	 								<a href="#">Бытовая техника</a>
+	 								<ul class="siderbar-inner-menu">
+	 									<li><a class="siderbar-inner-link-active" href="#">Микроволновки</a></li>
+	 									<li><a href="#">Холодильники</a></li>
+	 									<li><a href="#">Чацники</a></li>
+	 								</ul>
+	 							</li>
+	 							<li><a href="#">Мобильная техника</a></li>
+	 							<li><a href="#">Компьютеры</a></li>
+	 							<li><a href="#">Одежда</a></li>
+	 							<li><a href="#">Недвижимость</a></li>
+	 						</ul>
+	 					</nav>
+ 					</aside>
+ 				</div>
+
+ 				<div class="col-md-9 col-sm-12">
+	 				<div class="row">
+		 				<div class="col-lg-4 col-md-6 col-sm-6">
+		 					<div class="product">
+			 					<a href="#">
+			 						<img src="dist/images/prod.png" alt="product">
+			 					</a>
+		 						<div class="product-discr">Самая клевая печка, которую надо купить!</div>
+		 						<div class="row justify-content-between">
+									<div class="col-sm-3 col-6 product-price">150$</div>
+									<div class="col-sm-3 col-6"><i class="fas fa-shopping-cart"></i></div>
+		 						</div>
+		 					</div>
+		 				</div>
+		 				<div class="col-lg-4 col-md-6 col-sm-6">
+		 					<div class="product">
+			 					<a href="#">
+			 						<img src="dist/images/prod.png" alt="product">
+			 					</a>
+		 						<div class="product-discr">Самая клевая печка, которую надо купить!</div>
+		 						<div class="row justify-content-between">
+									<div class="col-sm-3 col-6 product-price">150$</div>
+									<div class="col-sm-3 col-6"><i class="fas fa-shopping-cart"></i></div>
+		 						</div>
+		 					</div>
+		 				</div>
+		 				<div class="col-lg-4 col-md-6 col-sm-6">
+		 					<div class="product">
+			 					<a href="#">
+			 						<img src="dist/images/prod.png" alt="product">
+			 					</a>
+		 						<div class="product-discr">Самая клевая печка, которую надо купить!</div>
+		 						<div class="row justify-content-between">
+									<div class="col-sm-3 col-6 product-price">150$</div>
+									<div class="col-sm-3 col-6"><i class="fas fa-shopping-cart"></i></div>
+		 						</div>
+		 					</div>
+		 				</div>
+		 				<div class="col-lg-4 col-md-6 col-sm-6">
+		 					<div class="product">
+			 					<a href="#">
+			 						<img src="dist/images/prod.png" alt="product">
+			 					</a>
+		 						<div class="product-discr">Самая клевая печка, которую надо купить!</div>
+		 						<div class="row justify-content-between">
+									<div class="col-sm-3 col-6 product-price">150$</div>
+									<div class="col-sm-3 col-6"><i class="fas fa-shopping-cart"></i></div>
+		 						</div>
+		 					</div>
+		 				</div>
+		 				<div class="col-lg-4 col-md-6 col-sm-6">
+		 					<div class="product">
+			 					<a href="#">
+			 						<img src="dist/images/prod.png" alt="product">
+			 					</a>
+		 						<div class="product-discr">Самая клевая печка, которую надо купить!</div>
+		 						<div class="row justify-content-between">
+									<div class="col-sm-3 col-6 product-price">150$</div>
+									<div class="col-sm-3 col-6"><i class="fas fa-shopping-cart"></i></div>
+		 						</div>
+		 					</div>
+		 				</div>
+		 				<div class="col-lg-4 col-md-6 col-sm-6">
+		 					<div class="product">
+			 					<a href="#">
+			 						<img src="dist/images/prod.png" alt="product">
+			 					</a>
+		 						<div class="product-discr">Самая клевая печка, которую надо купить!</div>
+		 						<div class="row justify-content-between">
+									<div class="col-sm-3 col-6 product-price">150$</div>
+									<div class="col-sm-3 col-6"><i class="fas fa-shopping-cart"></i></div>
+		 						</div>
+		 					</div>
+		 				</div>
+		 				<div class="col-lg-4 col-md-6 col-sm-6">
+		 					<div class="product">
+			 					<a href="#">
+			 						<img src="dist/images/prod.png" alt="product">
+			 					</a>
+		 						<div class="product-discr">Самая клевая печка, которую надо купить!</div>
+		 						<div class="row justify-content-between">
+									<div class="col-sm-3 col-6 product-price">150$</div>
+									<div class="col-sm-3 col-6"><i class="fas fa-shopping-cart"></i></div>
+		 						</div>
+		 					</div>
+		 				</div>
+		 				<div class="col-lg-4 col-md-6 col-sm-6">
+		 					<div class="product">
+			 					<a href="#">
+			 						<img src="dist/images/prod.png" alt="product">
+			 					</a>
+		 						<div class="product-discr">Самая клевая печка, которую надо купить!</div>
+		 						<div class="row justify-content-between">
+									<div class="col-sm-3 col-6 product-price">150$</div>
+									<div class="col-sm-3 col-6"><i class="fas fa-shopping-cart"></i></div>
+		 						</div>
+		 					</div>
+		 				</div>
+		 				<div class="col-lg-4 col-md-6 col-sm-6">
+		 					<div class="product">
+			 					<a href="#">
+			 						<img src="dist/images/prod.png" alt="product">
+			 					</a>
+		 						<div class="product-discr">Самая клевая печка, которую надо купить!</div>
+		 						<div class="row justify-content-between">
+									<div class="col-sm-3 col-6 product-price">150$</div>
+									<div class="col-sm-3 col-6"><i class="fas fa-shopping-cart"></i></div>
+		 						</div>
+		 					</div>
+		 				</div>
+		 				<div class="col-12 justify-content-center pagination">
+		 					<span>1</span>
+		 					<span>2</span>
+		 					<span class="pagination-active">3</span>
+		 					<span>4</span>
+		 					<span>5</span>
+		 					<span>6</span>
+		 					<span>7</span>
+		 				</div>
+		 				<div class="row">
+		 					<div class="col-lg-6 col-12">
+		 						<div class="container site-descr">
+			 						Компания «Пиксель Плюс» существует более 6 лет, за это время мы принимали участие в разработке более чем 700 сайтов, поэтому можем уверенно называть себя профессионалами. На данный момент наш коллектив состоит из более чем 30 сотрудников работающих в двух офисах в Москве и Зеленограде.характерные для этого жанра мотивы: неразделённой любви, ухода молодости, угасания души. 
+		 						</div>
+		 					</div>
+		 					<div class="col-lg-6 col-12">
+		 						<div class="container site-descr">
+			 						Одним из основных направлений работ нашей компании является поисковое продвижение сайтов, на данной момент мы работаем с более чем 150 постоянными клиентами по более чем 11 000 поисковым запросам. При этом в работе основной акцент мы делаем на качестве работ, а так же применяем собственные уникальные разработки в области SEO продвижения. На данный момент отдел SEO состоит из 9 человек под руководством ведущего специалиста, преимущественно работающих в нашем московском офисе.
+		 						</div>
+		 					</div>
+		 				</div>
+		 			</div>
+	 			</div>
+ 			</div>
+ 		</div>
+ 	</div>
+
+
+ 	<!-- ======================================================================================================================================================== -->
+ 	<!-- F O O T E R -->
+
+
+
+ 	<footer class="footer">
+ 		<div class="container">
+ 			<div class="row">
+ 				<div class="col-md-3 col-5">
+ 					<p>© 2017–2018 ЗАО «Компания»</p>
+ 					<a href="#">info@name.com.ua</a>
+ 				</div>
+ 				<div class="col-md-6 col-2">
+ 					<nav class="footer-nav">
+						<ul>
+							<li>
+								<a href="#">Главная</a>
+							</li>
+							<li>
+								<a href="#">Каталог</a>
+							</li>
+							<li>
+								<a href="#">Доставка и оплата</a>
+							</li>
+							<li>
+								<a href="#">Прайс-лист</a>
+							</li>
+							<li>
+								<a href="#">Контакты</a>
+							</li>
+						</ul>
+					</nav>
+ 				</div>
+ 				<div class="col-md-3 col-5">
+ 					<p>Разработка сайта — <br> компания «Пиксель Плюс»</p>
+ 				</div>	
+ 			</div>
+ 		</div>
+ 	</footer>
+
+
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
+	<script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  	<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+	<script src='dist/scripts/script.main.min.js'></script>
+</body>
+</html>

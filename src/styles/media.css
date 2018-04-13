@@ -1,0 +1,35 @@
+@media (max-width: 992px) { 
+	body .main-nav .main-nav__menu .main-nav__item .main-nav__link {
+		padding: 0 20px;
+	}
+}
+
+
+@media (max-width: 800px) {
+	.main-nav {
+		display: none;
+	}
+	body .toggle-nav {
+		display: block;
+	}
+}
+
+
+@media (max-width: 768px) {
+	body .content .sidebar {
+		padding-top: 0;
+	}
+	.footer-nav {
+		display: none;
+	}
+}
+
+
+@media (max-width: 576px) {
+	.product {
+		text-align: center;
+	}
+	.product img {
+		margin: 0 auto;
+	}
+}

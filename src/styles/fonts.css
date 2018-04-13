@@ -1,0 +1,7 @@
+@font-face {
+	font-family: 'open_sans_condensedlight';
+	src: url('../fonts/opensanscondensed-light-webfont.woff') format('woff2'),
+		 url('../fonts/opensanscondensed-light-webfont.woff2') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
